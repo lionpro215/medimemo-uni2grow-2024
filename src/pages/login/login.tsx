@@ -12,7 +12,7 @@ import frame1 from "../assets/Frame 8.png";
 import frame2 from "../assets/Frame 11.png";
 import frame3 from "../assets/Frame 10.png";
 import { useState } from "react";
-import { validateField, validateForm } from "";
+import { validateField, validateForm } from "../../utils/validation.jsx";
 
 export function Login() {
   const navigate = useNavigate();
